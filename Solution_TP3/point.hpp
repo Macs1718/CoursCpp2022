@@ -41,7 +41,8 @@ struct Point
     double x,y,z;
 };
 
-inline std::ostream& operator << ( std::ostream& out, Point const& p)
+inline std::ostream& 
+operator << ( std::ostream& out, Point const& p)
 {
     return p.print(out);
 }
